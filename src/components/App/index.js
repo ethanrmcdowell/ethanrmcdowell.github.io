@@ -4,7 +4,6 @@ import './style.css';
 import Nav from "../Nav";
 import About from "../../pages/About";
 import Portfolio from "../../pages/Portfolio";
-import Card from "../Card";
 
 function App() {
   return (
