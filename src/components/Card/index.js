@@ -1,11 +1,12 @@
 import React from "react";
+import "./style.css";
 
 function Card(props){
     return(
         <div>
-            <a href="https://www.google.com">
-                <div className="card">
-                    <img src="#" alt="#" />
+            <a href={props.href}>
+                <div className="col-4">
+                    <img src={props.img} className="portfolio-img" alt="#" />
                     <div>
                         <h3>{props.title}</h3>
                     </div>
