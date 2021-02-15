@@ -1,0 +1,12 @@
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+.main-text {
+    margin-top: 175px;
+    margin-left: 100px;
+}
+
+.head-one {
+    color: white;
+}

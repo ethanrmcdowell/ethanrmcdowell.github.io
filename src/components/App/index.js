@@ -1,17 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Footer from "../Footer";
 import './style.css';
-import Nav from "../Nav";
-import About from "../../pages/About";
+import Home from "../../pages/Home";
 import Portfolio from "../../pages/Portfolio";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fab, fas);
+
 
 function App() {
   return (
-      <Router>
-        <Nav />
-        <Route exact path="/" component={About} />
-        <Route exact path="/portfolio" component ={Portfolio} />
-      </Router>
+    <div>
+      <Home />
+      <Footer />
+    </div>
   );
 }
 

@@ -1,0 +1,22 @@
+.nav {
+    text-align: center;
+}
+
+li {
+    padding: 0 20px 0 20px;
+    font-size: 2.8rem;
+}
+
+.navbar-brand {
+    font-size: 2.8rem;
+    color: #cbbcb1 !important;
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+a:hover {
+    opacity: 50%;
+    color: #1e212d;
+}
