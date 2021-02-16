@@ -10,7 +10,8 @@ import Pdf from "../../documents/EthanResume.PDF";
 function createCard(project) {
     return(
         <Card
-            key={project.id} 
+            key={project.id}
+            id={project.id}
             title={project.title}
             href={project.href}
             img={project.img}
