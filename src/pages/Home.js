@@ -2,10 +2,13 @@ import React from "react";
 import "./Home.css";
 import ScrollReveal from "scrollreveal";
 
-function Home(){
+window.onload = function(){
     ScrollReveal().reveal(".head-one", {delay: 1200});
     ScrollReveal().reveal(".head-two", {delay: 2000});
     ScrollReveal().reveal(".about-text", {delay: 3000});
+}
+
+function Home(){
     return(
         <div id="title-links">
             <div className="main-text">
