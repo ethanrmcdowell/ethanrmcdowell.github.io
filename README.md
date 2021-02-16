@@ -6,7 +6,9 @@ Welcome to by brand new portfolio - this time using REACT! I had initially wante
 
 # PACKAGES
 
-[Scroll Reveal](https://scrollrevealjs.org/)
+ - [Scroll Reveal](https://scrollrevealjs.org/)
+
+ - [React-Use-Clipboard](https://www.npmjs.com/package/react-use-clipboard)
 
 # CONTACT
 
