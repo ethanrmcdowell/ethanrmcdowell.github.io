@@ -23,7 +23,7 @@ function createCard(project) {
 
 function Portfolio() {
     React.useEffect(() => {
-        ScrollReveal().reveal(".portfolio-title", {delay: 250});
+        ScrollReveal().reveal("#portfolio-box", {delay: 250});
     }, []);
     return(
         <div className="container" id="portfolio-box">
