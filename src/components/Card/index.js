@@ -5,7 +5,7 @@ import ScrollReveal from "scrollreveal";
 
 function Card(props){
 
-    React.useEffect(() => {
+    React.componentDidMount(() => {
         ScrollReveal().reveal(".portfolio-one", {delay: 300});
         ScrollReveal().reveal(".portfolio-two", {delay: 350});
         ScrollReveal().reveal(".portfolio-three", {delay: 450});
