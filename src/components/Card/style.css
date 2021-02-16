@@ -16,6 +16,7 @@ h5 {
     margin: 25px;
     background: #393e46;
     opacity: 90%;
+    border-radius: 10px;
 }
 
 .card-title {
@@ -35,14 +36,34 @@ a:hover {
     color: #00adb5;
 }
 
-.card-img-top {
-
-}
-
-.card-body {
-
-}
-
 .card-title {
     font-size: 1.4rem;
+}
+
+.portfolio-title {
+    color: #00adb5;
+    text-align: center;
+    padding: 10px 0;
+    background-color: white;
+    width: 25%;
+    height: 50px;
+    margin: 0 auto 0 auto;
+    background: #393e46;
+    border-radius: 25px;
+}
+
+.resume-link {
+    color: #00adb5;
+    text-align: center;
+    padding: 10px 0;
+    background-color: white;
+    width: 25%;
+    height: 50px;
+    margin: 100px auto 0 auto;
+    background: #393e46;
+    border-radius: 25px;
+}
+
+.resume-link:hover {
+    opacity: 40%;
 }

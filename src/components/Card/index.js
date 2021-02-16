@@ -6,12 +6,12 @@ import ScrollReveal from "scrollreveal";
 function Card(props){
 
     React.useEffect(() => {
-        ScrollReveal().reveal(".portfolio-one", {delay: 200});
-        ScrollReveal().reveal(".portfolio-two", {delay: 250});
-        ScrollReveal().reveal(".portfolio-three", {delay: 300});
-        ScrollReveal().reveal(".portfolio-four", {delay: 350});
-        ScrollReveal().reveal(".portfolio-five", {delay: 450});
-        ScrollReveal().reveal(".portfolio-six", {delay: 500});
+        ScrollReveal().reveal(".portfolio-one", {delay: 300});
+        ScrollReveal().reveal(".portfolio-two", {delay: 350});
+        ScrollReveal().reveal(".portfolio-three", {delay: 450});
+        ScrollReveal().reveal(".portfolio-four", {delay: 500});
+        ScrollReveal().reveal(".portfolio-five", {delay: 550});
+        ScrollReveal().reveal(".portfolio-six", {delay: 600});
     }, []);
 
     return(
