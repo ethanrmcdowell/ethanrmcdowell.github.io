@@ -1,0 +1,8 @@
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+.portfolio {
+    margin-top: 50vh;
+    margin-bottom: 10px;
+}

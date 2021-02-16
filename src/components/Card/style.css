@@ -1,15 +1,48 @@
-.portfolio-img {
-    width: 500px;
-    height: 500px;
+h5 {
+    text-align: center;
 }
 
 .card-div {
     margin-left: 20px;
     margin-bottom: 20px;
-    border: 3px black solid;
     opacity: 50%;
 }
 
-.card-div:hover {
-    opacity: 100%;
+.card {
+    border: 5px solid #393e46;
+    width: 18rem;
+    height: 350px;
+    padding: 5px;
+    margin: 25px;
+    background: #393e46;
+    opacity: 90%;
+}
+
+.card-title {
+    color: #eeeeee;
+}
+
+.card:hover {
+    opacity: 25%;
+    color: #00adb5;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.card:hover .card-title {
+    color: #00adb5;
+}
+
+.card-img-top {
+
+}
+
+.card-body {
+
+}
+
+.card-title {
+    font-size: 1.4rem;
 }

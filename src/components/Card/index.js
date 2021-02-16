@@ -3,12 +3,12 @@ import "./style.css";
 
 function Card(props){
     return(
-        <div className="card-div">
-            <a href={props.href}>
-                <div className="col-4">
-                    <img src={props.img} className="portfolio-img" alt="#" />
-                    <div>
-                        <h3>{props.title}</h3>
+        <div className="col-xs-12 col-sm-6 col-lg-4">
+            <a href={props.href} target="_blank" rel="noreferrer">
+                <div className="card">
+                    <img src={props.img} alt={props.alt}/>
+                    <div className="card-body">
+                        <h5 className="card-title">{props.title}</h5>
                     </div>
                 </div>
             </a>

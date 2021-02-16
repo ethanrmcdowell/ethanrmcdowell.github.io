@@ -4,10 +4,10 @@
 }
 
 .fa-3x {
-    margin: 50px 5px 0 5px;
-    color: #cbbcb1;
+    margin: 10px 5px 0 5px;
+    color: #eeeeee;
 }
 
 .fa-3x:hover {
-    opacity: 50%;
+    color: #00adb5;
 }

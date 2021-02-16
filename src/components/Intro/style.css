@@ -1,0 +1,23 @@
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+.main-text {
+    padding-top: 175px;
+    padding-left: 100px;
+    height: 100vh;
+}
+
+.head-one {
+    color: #eeeeee;
+}
+
+.head-two, .about-text {
+    color: #00adb5;
+}
+
+.arrow-down {
+    margin-top: 550px;
+    margin-left: 45vw;
+    opacity: 50%;
+}
