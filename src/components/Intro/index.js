@@ -3,14 +3,15 @@ import "./style.css";
 import ScrollReveal from "scrollreveal";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-window.onload = function(){
-    ScrollReveal().reveal(".head-one", {delay: 600});
-    ScrollReveal().reveal(".head-two", {delay: 1200});
-    ScrollReveal().reveal(".about-text", {delay: 1700});
-    ScrollReveal().reveal(".arrow-down", {delay: 1800});
-}
-
 function Intro(){
+
+    React.useEffect(() => {
+        ScrollReveal().reveal(".head-one", {delay: 600});
+        ScrollReveal().reveal(".head-two", {delay: 1200});
+        ScrollReveal().reveal(".about-text", {delay: 1700});
+        ScrollReveal().reveal(".arrow-down", {delay: 900});
+    }, []);
+
     return(
         <div id="title-links">
             <div className="main-text">

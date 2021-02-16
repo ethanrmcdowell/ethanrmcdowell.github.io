@@ -8,11 +8,11 @@ function createCard(project) {
     return(
         <Card
             key={project.id} 
-            id={project.id}
             title={project.title}
             href={project.href}
             img={project.img}
             alt={project.alt}
+            class={project.class}
         />
     );
 }
