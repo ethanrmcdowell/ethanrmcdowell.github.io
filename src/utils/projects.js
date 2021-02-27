@@ -9,7 +9,7 @@ const projects = [
     },{
         id: 2,
         title: "Minion Mingle",
-        href: "https://github.com/ethanrmcdowell/Dating-Website"
+        href: "https://github.com/ethanrmcdowell/Dating-Website",
         img: "/images/dating.jpg",
         alt: "dating website demo image",
         class: "portfolio-two"

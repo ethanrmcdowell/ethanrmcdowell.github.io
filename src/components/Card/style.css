@@ -2,12 +2,6 @@ h5 {
     text-align: center;
 }
 
-.card-div {
-    margin-left: 20px;
-    margin-bottom: 20px;
-    opacity: 50%;
-}
-
 .card {
     border: 5px solid #393e46;
     width: 18rem;
@@ -23,12 +17,16 @@ h5 {
 }
 
 .card:hover {
-    opacity: 35%;
+    opacity: 40%;
     color: #00adb5;
 }
 
 a:hover {
     text-decoration: none;
+}
+
+.card-div {
+    margin-top: 50px;
 }
 
 .card:hover .card-title {
