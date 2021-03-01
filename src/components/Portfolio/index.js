@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../Card";
 import projects from "../../utils/projects.js";
 import "./style.css";
-import ScrollReveal from "scrollreveal";
 import Pdf from "../../documents/EthanResume.PDF";
 
 
