@@ -17,7 +17,7 @@ h5 {
 }
 
 .card:hover {
-    opacity: 40%;
+    opacity: 40% !important;
     color: #00adb5;
 }
 

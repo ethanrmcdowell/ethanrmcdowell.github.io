@@ -31,8 +31,3 @@ function Portfolio() {
 }
 
 export default Portfolio;
-
-
-// React.useEffect(() => {
-//     ScrollReveal().reveal("#portfolio-box", {delay: 250});
-// }, []);
