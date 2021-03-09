@@ -1,10 +1,10 @@
 const projects = [
     {
         id: 1,
-        title: "Budget Tracker",
-        href: "https://github.com/ethanrmcdowell/Budget-Tracker",
-        img: "/images/budget.jpg",
-        alt: "budget tracker demo image",
+        title: "Choose Your Own Adventure",
+        href: "https://github.com/ethanrmcdowell/choose-adventure",
+        img: "/images/chooseadventure.jpg",
+        alt: "choose adventure demo image",
         class: "portfolio-one"
     },{
         id: 2,
@@ -29,10 +29,10 @@ const projects = [
         class: "portfolio-four"
     },{
         id: 5,
-        title: "Eat-Da-Burger",
-        href: "https://github.com/ethanrmcdowell/Eat-Da-Burger",
-        img: "/images/burger.jpg",
-        alt: "eat-da-burger demo image",
+        title: "Budget Tracker",
+        href: "https://github.com/ethanrmcdowell/Budget-Tracker",
+        img: "/images/budget.jpg",
+        alt: "budget tracker demo image",
         class: "portfolio-five"
     },{
         id: 6,
