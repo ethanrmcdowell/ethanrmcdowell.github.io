@@ -9,7 +9,7 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Choose Your Own Adventure',
+    title: 'Adventure Game',
     href: 'https://github.com/ethanrmcdowell/choose-adventure',
     img: '/images/chooseadventure.jpg',
     alt: 'choose adventure demo image',
@@ -19,7 +19,7 @@ const projects = [
     id: 3,
     title: 'Vehicle Dashboard',
     href: 'https://ethanrmcdowell.github.io/vehicle-dashboard/',
-    img: '/images/vehicle-dash.jpg',
+    img: '/images/vehicledash.jpg',
     alt: 'vehicle dashboard demo image',
     class: 'portfolio-three',
   },

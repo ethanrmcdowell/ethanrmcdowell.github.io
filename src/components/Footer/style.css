@@ -1,18 +1,20 @@
 .contact {
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 10px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 10px;
 }
 
 .fa-3x {
-    margin: 10px 5px 0 5px;
-    color: #eeeeee;
+  margin: 10px 5px 0 5px;
+  color: #eeeeee;
 }
 
 .fa-3x:hover {
-    color: #00adb5;
+  color: #00adb5;
 }
 
-.copied-alert {
-    color: #00adb5;
+.copiedAlert {
+  display: inline-block;
+  color: #00adb5;
+  margin-left: 23%;
 }
