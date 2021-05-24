@@ -38,8 +38,25 @@ a:hover {
 }
 
 .modalButton {
+  margin: 0 auto 0 auto;
   border: none;
   background-color: #222831;
+  padding: 0;
+  outline: none;
+}
+
+.modalButton:focus {
+  outline: none;
+}
+
+.modal-content {
+  background-color: #222831;
+  color: #00adb5;
+}
+
+button span {
+  color: #00adb5;
+  font-family: 'Mukta', sans-serif;
 }
 
 .portfolio-title {

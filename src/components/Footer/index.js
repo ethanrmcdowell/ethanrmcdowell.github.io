@@ -10,18 +10,6 @@ function Footer() {
   return (
     <div className='contact'>
       <a
-        href='https://www.facebook.com/ethan.mcdowell/'
-        target='_blank'
-        rel='noreferrer'>
-        <FontAwesomeIcon icon={['fab', 'facebook-square']} size='3x' />
-      </a>
-      <a
-        href='https://www.instagram.com/ethansuckz/'
-        target='_blank'
-        rel='noreferrer'>
-        <FontAwesomeIcon icon={['fab', 'instagram-square']} size='3x' />
-      </a>
-      <a
         href='https://github.com/ethanrmcdowell'
         target='_blank'
         rel='noreferrer'>
@@ -42,7 +30,8 @@ function Footer() {
       <FontAwesomeIcon
         icon={['fas', 'envelope-square']}
         size='3x'
-        onClick={setCopied}></FontAwesomeIcon>
+        onClick={setCopied}
+      />
       <div className='copiedDiv'>
         <p className='copiedAlert'>{isCopied ? 'Copied to clipboard!' : ''}</p>
       </div>

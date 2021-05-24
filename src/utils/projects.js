@@ -2,26 +2,35 @@ const projects = [
   {
     id: 1,
     title: 'COVID-19 Dashboard',
-    href: 'https://ethanrmcdowell.github.io/covid-watcher/',
+    href: 'https://github.com/ethanrmcdowell/covid-watcher',
     img: '/images/coviddash.jpg',
     alt: 'covid dashboard demo image',
     class: 'portfolio-one',
+    video: '',
+    description:
+      'I created this application for myself - I was getting frustrated with having to search for exactly the data I wanted to see when looking for local and national COVID-19 information. The data was provided by disease.sh API, which is received directly from Johns Hopkins University. I used React to create the application, Bootstrap for the layout, chart.js to display charts for national, local, and vaccination data, and axios for the multiple API calls to disease.sh.',
   },
   {
     id: 2,
-    title: 'Adventure Game',
+    title: 'Camp Slaughter',
     href: 'https://github.com/ethanrmcdowell/choose-adventure',
     img: '/images/chooseadventure.jpg',
     alt: 'choose adventure demo image',
     class: 'portfolio-two',
+    video: '',
+    description:
+      'Camp Slaughter is a choose your own adventure game that I contributed to with some friends. The game uses a tree data structure in order to provide a branching narrative. My personal contributions included setting up the backend and hosting through Heroku, creating the initial data structure format, writing the logic for the story transition, and setting up an administrative login and dashboard using Passport.js for authentication.',
   },
   {
     id: 3,
     title: 'Vehicle Dashboard',
-    href: 'https://ethanrmcdowell.github.io/vehicle-dashboard/',
+    href: 'https://github.com/ethanrmcdowell/vehicle-dashboard',
     img: '/images/vehicledash.jpg',
     alt: 'vehicle dashboard demo image',
     class: 'portfolio-three',
+    video: '',
+    description:
+      'This vehicle dashboard uses the Google Maps API to show the location of multiple vehicles on a map along with relevant data for the user.',
   },
   {
     id: 4,
@@ -30,6 +39,8 @@ const projects = [
     img: '/images/employee.jpg',
     alt: 'employee tracker demo image',
     class: 'portfolio-four',
+    video: 'https://youtu.be/OPxYsqos3TM',
+    description: '',
   },
   {
     id: 5,
@@ -38,6 +49,8 @@ const projects = [
     img: '/images/fitness.jpg',
     alt: 'workout tracker demo image',
     class: 'portfolio-five',
+    video: '',
+    description: '',
   },
   {
     id: 6,
@@ -46,6 +59,8 @@ const projects = [
     img: '/images/budget.jpg',
     alt: 'budget tracker demo image',
     class: 'portfolio-six',
+    video: '',
+    description: '',
   },
 ];
 

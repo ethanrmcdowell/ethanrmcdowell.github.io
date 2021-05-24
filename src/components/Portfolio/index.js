@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
+import React from 'react';
 import Card from '../Card';
 import projects from '../../utils/projects.js';
 import './style.css';
@@ -16,6 +14,8 @@ function createCard(project) {
       img={project.img}
       alt={project.alt}
       class={project.class}
+      video={project.video}
+      description={project.description}
     />
   );
 }
