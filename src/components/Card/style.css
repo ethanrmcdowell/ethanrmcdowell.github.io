@@ -37,6 +37,11 @@ a:hover {
   font-size: 1.4rem;
 }
 
+.modalButton {
+  border: none;
+  background-color: #222831;
+}
+
 .portfolio-title {
   color: #00adb5;
   text-align: center;
