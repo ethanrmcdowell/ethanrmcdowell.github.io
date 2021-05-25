@@ -6,7 +6,7 @@ const projects = [
     img: '/images/coviddash.jpg',
     alt: 'covid dashboard demo image',
     class: 'portfolio-one',
-    video: '',
+    video: 'https://youtu.be/BWePZkCxAJI',
     description:
       'I created this application for myself - I was getting frustrated with having to search for exactly the data I wanted to see when looking for local and national COVID-19 information. The data was provided by disease.sh API, which is received directly from Johns Hopkins University. I used React to create the application, Bootstrap for the layout, chart.js to display charts for national, local, and vaccination data, and axios for the multiple API calls to disease.sh.',
   },
@@ -17,7 +17,7 @@ const projects = [
     img: '/images/chooseadventure.jpg',
     alt: 'choose adventure demo image',
     class: 'portfolio-two',
-    video: '',
+    video: 'https://youtu.be/lQFMzYWtKWg',
     description:
       'Camp Slaughter is a choose your own adventure game that I contributed to with some friends. The game uses a tree data structure in order to provide a branching narrative. My personal contributions included setting up the backend and hosting through Heroku, creating the initial data structure format, writing the logic for the story transition, and setting up an administrative login and dashboard using Passport.js for authentication.',
   },
@@ -40,7 +40,8 @@ const projects = [
     alt: 'employee tracker demo image',
     class: 'portfolio-four',
     video: 'https://youtu.be/OPxYsqos3TM',
-    description: '',
+    description:
+      'JavaScript CLI application which allows you to manage employee information, departments, and job roles as well as view labor budgets. Uses SQL database to store user data.',
   },
   {
     id: 5,
@@ -50,7 +51,8 @@ const projects = [
     alt: 'workout tracker demo image',
     class: 'portfolio-five',
     video: '',
-    description: '',
+    description:
+      'This application uses MongoDB to store user data on fitness trends.',
   },
   {
     id: 6,
@@ -60,7 +62,8 @@ const projects = [
     alt: 'budget tracker demo image',
     class: 'portfolio-six',
     video: '',
-    description: '',
+    description:
+      'Heroku-deployed application which will track user budget inputs. Will also function offline by storing data locally until the application can connect back to the MongoDB database.',
   },
 ];
 

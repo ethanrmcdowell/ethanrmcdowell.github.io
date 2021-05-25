@@ -1,3 +1,7 @@
 .portfolio {
-    margin-top: 50vh;
+  margin-top: 50vh;
+}
+
+#portfolio-box {
+  background-color: #222831;
 }

@@ -28,7 +28,7 @@ function Portfolio() {
       <div className='row'>{projects.map(createCard)}</div>
 
       <a className='pdf-link' href={Pdf} target='_blank' rel='noreferrer'>
-        <h3 className='resume-link'>My Resume</h3>
+        <h3 className='resume-text'>My Resume</h3>
       </a>
     </div>
   );
