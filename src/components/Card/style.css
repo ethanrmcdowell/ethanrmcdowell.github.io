@@ -10,15 +10,17 @@ h5 {
   margin: 25px;
   background: #393e46;
   border-radius: 10px;
+  -webkit-transition: border 1s; /* For Safari 3.0 to 6.0 */
+  transition: border 1s; /* For modern browsers */
+}
+
+.card:hover {
+  border: 5px solid #00abd5;
+  color: #00adb5;
 }
 
 .card-title {
   color: #eeeeee;
-}
-
-.card:hover {
-  border: 5px ridge #00abd5;
-  color: #00adb5;
 }
 
 a:hover {
@@ -27,6 +29,11 @@ a:hover {
 
 .card-div {
   margin-top: 50px;
+}
+
+.card .card-title {
+  -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+  transition: color 1s; /* For modern browsers */
 }
 
 .card:hover .card-title {
@@ -56,6 +63,7 @@ a:hover {
 
 .modal-header {
   border: none;
+  color: white;
 }
 
 .modal-footer {
@@ -72,6 +80,10 @@ button span {
   font-family: 'Mukta', sans-serif;
 }
 
+button span:focus {
+  outline: none;
+}
+
 .portfolio-title {
   color: #00adb5;
   text-align: center;
@@ -85,7 +97,7 @@ button span {
 }
 
 .resume-text {
-  color: #00adb5;
+  color: white;
   text-align: center;
   padding: 10px 0;
   background-color: white;
@@ -95,9 +107,15 @@ button span {
   background: #393e46;
   border: 5px solid #393e46;
   border-radius: 25px;
+  -webkit-transition: color 1s, border 1s; /* For Safari 3.0 to 6.0 */
+  transition: color 1s, border 1s; /* For modern browsers */
 }
 
 .resume-text:hover {
-  border: 5px ridge #00abd5;
+  border: 5px solid #00abd5;
   color: #00adb5;
+}
+
+.technologies-text {
+  color: white;
 }

@@ -7,14 +7,10 @@
 .fa-3x {
   margin: 10px 5px 0 5px;
   color: #eeeeee;
+  -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+  transition: color 1s; /* For modern browsers */
 }
 
 .fa-3x:hover {
   color: #00adb5;
-}
-
-.copiedAlert {
-  display: inline-block;
-  color: #00adb5;
-  margin-left: 23%;
 }

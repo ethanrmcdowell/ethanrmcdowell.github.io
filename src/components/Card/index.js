@@ -18,8 +18,22 @@ const MyModal = props => {
       </Modal.Header>
       <Modal.Body>
         <p>{props.description}</p>
+        <p>
+          <span className='technologies-text'>Technologies Used:</span>{' '}
+          {props.technologies}
+        </p>
       </Modal.Body>
       <Modal.Footer>
+        {props.href ? (
+          <a href={props.href} target='_blank' rel='noreferrer'>
+            <FontAwesomeIcon
+              icon={['fas', 'external-link-square-alt']}
+              size='3x'
+            />
+          </a>
+        ) : (
+          ''
+        )}
         {props.video ? (
           <a href={props.video} target='_blank' rel='noreferrer'>
             <FontAwesomeIcon icon={['fab', 'youtube-square']} size='3x' />
@@ -27,12 +41,12 @@ const MyModal = props => {
         ) : (
           ''
         )}
-        <a href={props.link} target='_blank' rel='noreferrer'>
+        <a href={props.github} target='_blank' rel='noreferrer'>
           <FontAwesomeIcon icon={['fab', 'github-square']} size='3x' />
         </a>
         <FontAwesomeIcon
           onClick={props.onHide}
-          icon={['fa', 'window-close']}
+          icon={['fas', 'times-circle']}
           size='3x'
         />
       </Modal.Footer>
@@ -63,9 +77,11 @@ const Card = props => {
       <MyModal
         show={modalShow}
         title={props.title}
-        link={props.href}
+        href={props.href}
+        github={props.github}
         video={props.video}
         description={props.description}
+        technologies={props.technologies}
         onHide={() => setModalShow(false)}
       />
     </>

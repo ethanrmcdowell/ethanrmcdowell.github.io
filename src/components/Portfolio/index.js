@@ -11,11 +11,13 @@ function createCard(project) {
       id={project.id}
       title={project.title}
       href={project.href}
+      github={project.github}
       img={project.img}
       alt={project.alt}
       class={project.class}
       video={project.video}
       description={project.description}
+      technologies={project.technologies}
     />
   );
 }

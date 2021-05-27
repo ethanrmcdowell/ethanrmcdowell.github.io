@@ -1,12 +1,19 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
+import Button from 'react-bootstrap/Button';
 import './style.css';
 import useClipboard from 'react-use-clipboard';
 
 function Footer() {
-  const [isCopied, setCopied] = useClipboard('ethan.r.mcdowell@gmail.com', {
-    successDuration: 1000,
-  });
+  const [isCopied, setCopied] = useClipboard('ethan.r.mcdowell@gmail.com');
+  const renderTooltip = props => (
+    <Tooltip id='button-tooltip' {...props}>
+      click to copy
+    </Tooltip>
+  );
+
   return (
     <div className='contact'>
       <a
@@ -27,14 +34,17 @@ function Footer() {
         rel='noreferrer'>
         <FontAwesomeIcon icon={['fab', 'linkedin']} size='3x' />
       </a>
-      <FontAwesomeIcon
-        icon={['fas', 'envelope-square']}
-        size='3x'
-        onClick={setCopied}
-      />
-      <div className='copiedDiv'>
-        <p className='copiedAlert'>{isCopied ? 'Copied to clipboard!' : ''}</p>
-      </div>
+
+      <OverlayTrigger
+        placement='top'
+        delay={{ show: 250, hide: 300 }}
+        overlay={renderTooltip}>
+        <FontAwesomeIcon
+          icon={['fas', 'envelope-square']}
+          size='3x'
+          onClick={setCopied}
+        />
+      </OverlayTrigger>
     </div>
   );
 }
