@@ -1,30 +1,38 @@
 <div class="pageBox">
   <div class="titleBox">
-    <img src="assets/me.jpeg" class="myPhoto" />
-    <h1 class="myName">Ethan R. McDowell</h1>
+    <div class="imageBox">
+      <img src="assets/me.jpeg" class="myPhoto" />
+    </div>
+    <div class="headerText">
+      <h1 class="myName">Ethan R. McDowell</h1>
+      <div class="socialBox">
+        <a href="https://www.instagram.com/ethanzrm/">
+          <fa-icon [icon]="faInstagram" size="2x" class="fa-icon"></fa-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/ethan-r-mcdowell/">
+          <fa-icon [icon]="faLinkedin" size="2x" class="fa-icon"></fa-icon>
+        </a>
+        <a href="https://github.com/ethanrmcdowell">
+          <fa-icon [icon]="faGithub" size="2x" class="fa-icon"></fa-icon>
+        </a>
+        <a href="">
+          <fa-icon [icon]="faEnvelope" size="2x" class="fa-icon"></fa-icon>
+        </a>
+      </div>
+    </div>
   </div>
-  <div class="socialBox">
-    <a href="">
-      <fa-icon [icon]="faInstagram" size="2x" class="fa-icon"></fa-icon>
-    </a>
-    <a href="">
-      <fa-icon [icon]="faLinkedin" size="2x" class="fa-icon"></fa-icon>
-    </a>
-    <a href="">
-      <fa-icon [icon]="faGithub" size="2x" class="fa-icon"></fa-icon>
-    </a>
-    <a href="">
-      <fa-icon [icon]="faTwitter" size="2x" class="fa-icon"></fa-icon>
-    </a>
-    <a href="">
-      <fa-icon [icon]="faEnvelope" size="2x" class="fa-icon"></fa-icon>
-    </a>
-  </div>
-  <hr />
   <div class="aboutBox">
-    <p>
-      Hi, I'm Ethan! I'm a full-stack web developer located in Detroit,
-      Michigan.
-    </p>
+    <div class="pageDivider">
+      <fa-icon [icon]="faCircleNotch" size="2x" class="fa-icon-notch"></fa-icon>
+    </div>
+    <div class="introBox">
+      <p>
+        Hello! I'm a full-stack web developer located in Detroit, Michigan I
+        have hands-on experience developing and implementing solutions for CRMs
+        and financial applications. I have a strong background utilizing
+        JavaScript, Angular, React, MySQL, Node.js, and Git, along with other
+        related technologies.
+      </p>
+    </div>
   </div>
 </div>

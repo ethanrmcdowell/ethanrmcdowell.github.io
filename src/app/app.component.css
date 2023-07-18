@@ -3,8 +3,12 @@ a {
 }
 
 p {
-    color: #F2EE9D;
+    color: #9BE8D8;
     font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.fa-icon-notch {
+    color: #468B97;
 }
 
 .myPhoto {
@@ -15,7 +19,7 @@ p {
 
 .myName {
     margin-left: 10px;
-    color: #F2EE9D;
+    color: #9BE8D8;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
@@ -25,18 +29,35 @@ p {
 }
 
 .socialBox {
-    margin: 3px 0 25px 90px;
+    display: flex;
+    margin: 3px 0 25px 8px;
 }
 
 .fa-icon {
     margin: 5px;
-    color: #F2EE9D;
+    color: #9BE8D8;
 }
 
 .pageBox {
     padding: 50px;
 }
 
+.imageBox {
+    margin-right: 10px;
+}
+
+.headerText {
+    display: flex;
+    flex-direction: column;
+}
+
 .aboutBox {
     text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.introBox {
+    display: flex;
+    justify-content: center;
 }

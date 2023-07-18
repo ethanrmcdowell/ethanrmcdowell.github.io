@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 import { faInstagram, faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faCircleNotch } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -15,4 +16,5 @@ export class AppComponent {
   faGithub = faGithub;
   faTwitter = faTwitter;
   faEnvelope = faEnvelope;
+  faCircleNotch = faCircleNotch;
 }
