@@ -1,0 +1,42 @@
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #F2EE9D;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.myPhoto {
+    border-radius: 250px;
+    height: 75px;
+    width: 75px;
+}
+
+.myName {
+    margin-left: 10px;
+    color: #F2EE9D;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.titleBox {
+    display: flex;
+    align-items: center;
+}
+
+.socialBox {
+    margin: 3px 0 25px 90px;
+}
+
+.fa-icon {
+    margin: 5px;
+    color: #F2EE9D;
+}
+
+.pageBox {
+    padding: 50px;
+}
+
+.aboutBox {
+    text-align: center;
+}
