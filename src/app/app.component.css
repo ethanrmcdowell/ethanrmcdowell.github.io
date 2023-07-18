@@ -11,6 +11,11 @@ p {
     color: #468B97;
 }
 
+.fa-rotate {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
 .myPhoto {
     border-radius: 250px;
     height: 75px;
@@ -21,6 +26,10 @@ p {
     margin-left: 10px;
     color: #9BE8D8;
     font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.introBox h3 {
+    color: #9BE8D8;
 }
 
 .titleBox {
@@ -60,4 +69,12 @@ p {
 .introBox {
     display: flex;
     justify-content: center;
+    color: #9BE8D8;
+}
+
+.activeProj {
+    display: flex;
+    justify-content: center;
+    color: #9BE8D8;
+    margin: 0;
 }
