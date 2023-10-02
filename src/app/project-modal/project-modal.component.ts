@@ -35,13 +35,13 @@ export class ProjectModalComponent implements OnInit {
         break;
       case "prattle":
         this.projectName = "Prattle";
-        this.projectText = "While the meat of the application is still under construction, this project started as a test over ";
+        this.projectText = "While the meat of the application is still under construction, this project started as a way to learn Google's Firebase authentication and databasing.";
         this.projectUrl = "https://prattle-3d614.web.app/";
         this.projectGH = "https://github.com/ethanrmcdowell/prattle-app";
         break;
       case "covid":
         this.projectName = "COVID Watcher";
-        this.projectText = "";
+        this.projectText = "Charted data on global data, US data, and vaccination numbers for COVID.";
         this.projectUrl = "https://ethanrmcdowell.github.io/covid-watcher-2.0/";
         this.projectGH = "https://github.com/ethanrmcdowell/covid-watcher-2.0";
         break;
