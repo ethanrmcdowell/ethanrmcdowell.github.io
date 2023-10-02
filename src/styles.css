@@ -2,3 +2,6 @@ body, html {
     background-color: #1D5B79;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

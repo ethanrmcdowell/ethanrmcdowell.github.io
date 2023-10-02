@@ -1,0 +1,22 @@
+<div class="modalContainer">
+  <h3>{{ projectName }}</h3>
+  <p>{{ projectText }}</p>
+  <div class="iconContainer">
+    <a href="{{ projectUrl }}" target="_blank">
+      <fa-icon
+        [icon]="faLink"
+        size="2x"
+        class="fa-icon"
+        target="_blank"
+      ></fa-icon>
+    </a>
+    <a href="{{ projectGH }}" target="_blank">
+      <fa-icon
+        [icon]="faGithub"
+        size="2x"
+        class="fa-icon"
+        target="_blank"
+      ></fa-icon>
+    </a>
+  </div>
+</div>

@@ -42,49 +42,63 @@
     </div>
   </div>
   <div class="aboutBox">
-    <div class="pageDivider">
-      <fa-icon [icon]="faCircleNotch" size="2x" class="fa-icon-notch"></fa-icon>
-    </div>
     <div class="introBox">
-      <p>
-        Hello! I'm a full-stack web developer located in Detroit, Michigan I
+      <h3>
+        Hello! I'm a full-stack web developer located in Detroit, Michigan. I
         have hands-on experience developing and implementing solutions for CRMs
-        and financial applications. I have a strong background utilizing
-        JavaScript, Angular, React, MySQL, Node.js, and Git, along with other
-        related technologies.
-      </p>
+        and financial applications as well as a strong background utilizing
+        JavaScript, Angular, React, MySQL, Node.js, and Git, and other related
+        technologies.
+      </h3>
     </div>
-    <div class="pageDivider">
-      <fa-icon
-        [icon]="faCircleNotch"
-        size="2x"
-        class="fa-icon-notch fa-rotate"
-      ></fa-icon>
+  </div>
+  <hr />
+  <div class="projectSection">
+    <h3>Projects</h3>
+    <div class="projectContainer">
+      <div (click)="openModal('travel')" class="projBox">
+        <h3>Travel Health</h3>
+        <p>
+          Web application that shows travel health and safety information for
+          each country.
+        </p>
+        <img src="../assets/travel.png" />
+      </div>
+      <div class="projBuffer"></div>
+      <div (click)="openModal('news')" class="projBox">
+        <h3>News Watch</h3>
+        <p>News aggregator utilizing NewsData.io API.</p>
+        <img src="../assets/news.png" />
+      </div>
     </div>
-    <div class="activeProj">
-      <a href="https://country-data-81ef9.web.app/" target="_blank"
-        ><h3>Active Development: Travel Health</h3></a
-      >
-    </div>
-    <div class="activeProj">
-      <p>
-        Displays travel health information for countries across the globe. The
-        project currently displays information for yellow fever, typhoid,
-        malaria, and Japanese encephalitis risk for each country as well as
-        providing a direct link to the CDC travel health recommendations. Future
-        development plans are to include additional vaccinations or prophylaxis
-        recommended for various countries as well as displaying visual data on
-        the map for various transmissable diseases.
-      </p>
-    </div>
-    <div class="pageDivider">
-      <fa-icon [icon]="faCircleNotch" size="2x" class="fa-icon-notch"></fa-icon>
-    </div>
-    <div class="activeProj">
-      <h3>Currently Learning: Python</h3>
-    </div>
-    <div class="activeProj">
-      <p>Learning to create basic Twitter/Discord bots and web scrapers.</p>
+    <div class="containerBuffer"></div>
+    <div class="projectContainer">
+      <div (click)="openModal('prattle')" class="projBox">
+        <h3>Prattle</h3>
+        <p>
+          Work in progress! Social media application using Google's Firebase.
+        </p>
+        <img src="../assets/prattle.png" />
+      </div>
+      <div class="projBuffer"></div>
+      <div (click)="openModal('covid')" class="projBox">
+        <h3>COVID Watcher</h3>
+        <p>Historical COVID data received from Disease.sh API.</p>
+        <img src="../assets/covid.png" />
+      </div>
     </div>
   </div>
 </div>
+
+<!-- <div class="projectDiv" (click)="openModal('travel')">
+  <h3>Travel Health</h3>
+  <img src="../assets/travel.png" />
+</div>
+<div class="projectDiv" (click)="openModal('news')">
+  <h3>News Watcher</h3>
+  <img src="../assets/news.png" />
+</div>
+<div class="projectDiv" (click)="openModal('prattle')">
+  <h3>Prattle</h3>
+  <img src="../assets/prattle.png" />
+</div> -->

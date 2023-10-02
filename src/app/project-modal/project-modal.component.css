@@ -1,0 +1,35 @@
+.iconContainer  {
+
+}
+
+.modalContainer {
+    padding: 10px;
+}
+
+.modalContainer h3 {
+    color: #9BE8D8;
+    font-size: 22px;
+}
+
+.modalContainer p {
+    color: #F4D3D3;
+}
+
+.fa-icon {
+    margin-left: 10px;
+}
+
+a {
+    user-select: none;
+    text-decoration: none;
+    border: 0;
+    color: white;
+}
+
+a:focus {
+    outline: none;
+}
+
+::ng-deep .mat-mdc-dialog-surface {
+    background-color: #1D5B79 !important;
+}
