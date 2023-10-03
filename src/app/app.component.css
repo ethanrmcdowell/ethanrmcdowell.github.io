@@ -96,6 +96,7 @@ h3 {
     width: 33%;
     text-align: center;
     border: 5px solid #9BE8D8;
+    border-radius: 25px;
 }
 
 .projBuffer {
@@ -109,4 +110,8 @@ h3 {
 .projBox img {
     width: 100%;
     overflow: hidden;
+}
+
+.projBox:hover {
+    opacity: 0.5;
 }
