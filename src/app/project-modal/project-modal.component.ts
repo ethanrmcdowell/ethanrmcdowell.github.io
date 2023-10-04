@@ -29,7 +29,7 @@ export class ProjectModalComponent implements OnInit {
         break;
       case "news":
         this.projectName = "News Watch";
-        this.projectText = "";
+        this.projectText = "Uses NewData.io API to show the day's top news stories. Can be viewed in English, Spanish, and French.";
         this.projectUrl = "https://news-watch-6b49e.web.app/";
         this.projectGH = "https://github.com/ethanrmcdowell/news-watch";
         break;
@@ -44,6 +44,12 @@ export class ProjectModalComponent implements OnInit {
         this.projectText = "Charted data on global data, US data, and vaccination numbers for COVID.";
         this.projectUrl = "https://ethanrmcdowell.github.io/covid-watcher-2.0/";
         this.projectGH = "https://github.com/ethanrmcdowell/covid-watcher-2.0";
+        break;
+      case "question":
+        this.projectName = "Ask Me";
+        this.projectText = "Ask me anything and I'll get back to you! Utilizes Firebase hosting, authentication, and cloud database. Lock icon in the top-left corner enables admin panel, feel free to log in using admin@admin.com with the password 'adminTest'!";
+        this.projectUrl = "https://ask-me-1b00c.web.app/";
+        this.projectGH = "https://github.com/ethanrmcdowell/ask-me";
         break;
       default:
         this.projectName = "ERROR";
