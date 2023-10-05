@@ -115,3 +115,7 @@ h3 {
 .projBox:hover {
     opacity: 0.5;
 }
+
+.projBox img {
+    border-radius: 25px;
+}
