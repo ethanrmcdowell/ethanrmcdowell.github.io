@@ -76,6 +76,8 @@ h3 {
     display: flex;
     justify-content: center;
     color: #9BE8D8;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .projectSection h3 {
@@ -118,4 +120,31 @@ h3 {
 
 .projBox img {
     border-radius: 25px;
+}
+
+@media screen and (max-width: 640px) {
+  .projectContainer {
+    flex-direction: column;
+  }
+
+  .projBox {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .projBuffer {
+    display: none;
+  }
+
+  .introBox {
+    width: 100%;
+  }
+
+  .aboutText {
+    width: 100% !important;
+  }
+
+  .aboutBox {
+    width: 100%;
+  }
 }
