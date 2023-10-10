@@ -73,6 +73,12 @@
     </div>
     <div class="projBuffer"></div>
     <div class="projectContainer">
+      <div (click)="openModal('news')" class="projBox">
+        <h3>News Mouse</h3>
+        <p>News aggregator utilizing NewsData.io API.</p>
+        <img src="../assets/mouse.png" />
+      </div>
+      <div class="projBuffer"></div>
       <div (click)="openModal('prattle')" class="projBox">
         <h3>Prattle</h3>
         <p>
@@ -80,25 +86,6 @@
         </p>
         <img src="../assets/prattle.png" />
       </div>
-      <div class="projBuffer"></div>
-      <div (click)="openModal('news')" class="projBox">
-        <h3>News Watch</h3>
-        <p>News aggregator utilizing NewsData.io API.</p>
-        <img src="../assets/news.png" />
-      </div>
     </div>
   </div>
 </div>
-
-<!-- <div class="projectDiv" (click)="openModal('travel')">
-  <h3>Travel Health</h3>
-  <img src="../assets/travel.png" />
-</div>
-<div class="projectDiv" (click)="openModal('news')">
-  <h3>News Watcher</h3>
-  <img src="../assets/news.png" />
-</div>
-<div class="projectDiv" (click)="openModal('prattle')">
-  <h3>Prattle</h3>
-  <img src="../assets/prattle.png" />
-</div> -->

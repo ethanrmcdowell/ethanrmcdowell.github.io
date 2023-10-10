@@ -28,10 +28,10 @@ export class ProjectModalComponent implements OnInit {
         this.projectGH = "https://github.com/ethanrmcdowell/country-data";
         break;
       case "news":
-        this.projectName = "News Watch";
-        this.projectText = "Uses NewData.io API to show the day's top news stories. Can be viewed in English, Spanish, and French.";
-        this.projectUrl = "https://news-watch-6b49e.web.app/";
-        this.projectGH = "https://github.com/ethanrmcdowell/news-watch";
+        this.projectName = "News Mouse";
+        this.projectText = "Uses NewData.io API to show the day's top news stories. Can be viewed in English, Spanish, and French and uses Firebase/Firestore to allow user to log in and save their favorite stories for later.";
+        this.projectUrl = "https://news-mouse.web.app/";
+        this.projectGH = "https://github.com/ethanrmcdowell/news-mouse";
         break;
       case "prattle":
         this.projectName = "Prattle";
