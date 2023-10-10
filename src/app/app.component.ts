@@ -30,7 +30,7 @@ export class AppComponent {
       data: project,
       panelClass: 'project-dialog',
       height: '40%',
-      width: '40%',
+      width: '60%',
     });
 
     dialogRef.afterClosed().subscribe(result => {
