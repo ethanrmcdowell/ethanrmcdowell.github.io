@@ -1,6 +1,6 @@
 a {
     text-decoration: none;
-    color: #C2DEDC;
+    color: #c2dedc;
 }
 
 p {
@@ -116,7 +116,11 @@ h3 {
 }
 
 .projBox:hover {
-    opacity: 0.5;
+    border-color: #F9F3CC;
+}
+
+.fa-icon:hover {
+    color: #F9F3CC;
 }
 
 .projBox img {
