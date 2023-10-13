@@ -150,15 +150,21 @@ h3 {
 }
 
 .projBox:hover {
-    border-color: #5C8374;
+    border-color: #00ff99;
 }
 
 .fa-icon:hover {
-    color: #5C8374;
+    color: #00ff99;
 }
 
 .border-style {
+    border-left: 0 solid #00ff99;
+    transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
 
+.border-style:hover {
+    padding-left:  0.5rem;
+    border-left: 0.5rem solid #00ff99;
 }
 
 @media screen and (max-width: 640px) {
