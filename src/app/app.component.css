@@ -145,8 +145,8 @@ h3 {
 
 .projBox img {
     width: 100%;
-    overflow: hidden;
-    border-radius: 25px;
+    object-fit: contain;
+    border-radius: 20px;
 }
 
 .projBox:hover {
@@ -157,6 +157,9 @@ h3 {
     color: #5C8374;
 }
 
+.border-style {
+
+}
 
 @media screen and (max-width: 640px) {
   .projectContainer {
