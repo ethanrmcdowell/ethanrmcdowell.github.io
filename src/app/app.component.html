@@ -43,48 +43,37 @@
   </div>
   <div class="aboutBox">
     <div class="introBox">
+      <h3>Hello!</h3>
       <p class="aboutText">
-        Hello! I'm a full-stack web developer located in Detroit, Michigan. I
-        have hands-on experience developing and implementing solutions for CRMs
-        and financial applications as well as a strong background utilizing
+        I'm a full-stack web developer located in Detroit, Michigan. I have
+        hands-on experience developing and implementing solutions for CRMs and
+        financial applications as well as a strong background utilizing
         JavaScript, Angular, React, MySQL, Node.js, and Git, and other related
         technologies.
       </p>
     </div>
+    <a href="#bio">
+      <fa-icon
+        [icon]="faArrowDown"
+        size="2x"
+        class="fa-arrow-down fa-icon"
+        target="_blank"
+      ></fa-icon>
+    </a>
   </div>
-  <hr />
+  <span id="bio"></span>
+  <span id="projects"></span>
   <div class="projectSection">
     <h3>Projects</h3>
     <div class="projectContainer">
-      <div (click)="openModal('travel')" class="projBox">
-        <h3>Travel Health</h3>
-        <p>
-          Web application that shows travel health and safety information for
-          each country.
-        </p>
-        <img src="../assets/travel.png" />
-      </div>
-      <div class="projBuffer"></div>
-      <div (click)="openModal('question')" class="projBox">
-        <h3>Ask me!</h3>
-        <p>Ask me an anonymous question!</p>
-        <img src="../assets/question.png" />
-      </div>
-    </div>
-    <div class="projBuffer"></div>
-    <div class="projectContainer">
       <div (click)="openModal('news')" class="projBox">
-        <h3>News Mouse</h3>
-        <p>News aggregator utilizing NewsData.io API.</p>
-        <img src="../assets/mouse.png" />
+        <img src="../assets/mouse2.png" />
       </div>
-      <div class="projBuffer"></div>
-      <div (click)="openModal('prattle')" class="projBox">
-        <h3>Prattle</h3>
-        <p>
-          Work in progress! Social media application using Google's Firebase.
-        </p>
-        <img src="../assets/prattle.png" />
+      <div (click)="openModal('question')" class="projBox">
+        <img src="../assets/question2.png" />
+      </div>
+      <div (click)="openModal('travel')" class="projBox">
+        <img src="../assets/travel2.png" />
       </div>
     </div>
   </div>

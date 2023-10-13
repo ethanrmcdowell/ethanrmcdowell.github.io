@@ -3,16 +3,16 @@
 }
 
 .modalContainer h3 {
-    color: #9BE8D8;
     font-size: 22px;
-}
-
-.modalContainer p {
-    color: #F9F3CC;
 }
 
 .fa-icon {
     margin-left: 10px;
+    color: #000000;
+}
+
+.fa-icon:hover {
+    color: #5C8374;
 }
 
 a {
@@ -26,6 +26,8 @@ a:focus {
     outline: none;
 }
 
-::ng-deep .mat-mdc-dialog-surface {
-    background-color: #1D5B79 !important;
+.iconContainer {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
 }

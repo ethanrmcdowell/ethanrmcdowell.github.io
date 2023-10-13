@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import { faInstagram, faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faCircleNotch, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faCircleNotch, faLink, faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { MatDialog } from '@angular/material/dialog';
 import { ProjectModalComponent } from './project-modal/project-modal.component';
 
@@ -20,6 +20,7 @@ export class AppComponent {
   faEnvelope = faEnvelope;
   faCircleNotch = faCircleNotch;
   faLink = faLink;
+  faArrowDown = faArrowDown;
 
   constructor(public dialog: MatDialog) {}
 

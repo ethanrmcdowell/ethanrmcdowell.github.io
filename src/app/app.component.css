@@ -1,11 +1,14 @@
+* {
+    font-family: 'Bitter', sans-serif !important;
+}
+
 a {
     text-decoration: none;
-    color: #c2dedc;
+    color: #000000;
 }
 
 p {
-    color: #9BE8D8;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #000000;
 }
 
 h3 {
@@ -13,7 +16,7 @@ h3 {
 }
 
 .fa-icon-notch {
-    color: #468B97;
+    color: #000000;
 }
 
 .fa-rotate {
@@ -29,12 +32,11 @@ h3 {
 
 .myName {
     margin-left: 10px;
-    color: #F9F3CC;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #000000;
 }
 
 .introBox h3 {
-    color: #9BE8D8;
+    color: #000000;
 }
 
 .titleBox {
@@ -49,7 +51,7 @@ h3 {
 
 .fa-icon {
     margin: 5px;
-    color: #C2DEDC;
+    color: #000000;
 }
 
 .pageBox {
@@ -66,27 +68,55 @@ h3 {
 }
 
 .aboutBox {
-    text-align: center;
+    position: relative;
     width: 50%;
+    height: 70vh;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 15%;
+}
+
+.bioBox {
+    position: relative;
+    width: 50%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.bioSection {
+    height: 100vh;
+}
+
+.fa-arrow-down {
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fa-arrow-down-2 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .introBox {
     display: flex;
-    justify-content: center;
-    color: #9BE8D8;
+    flex-direction: column;
+    color: #000000;
     margin-left: 0px;
     margin-right: 0px;
 }
 
 .projectSection h3 {
-    color: #F9F3CC;
+    color: #000000;
 }
 
 .projectSection {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 25%;
+    height: 100vh;
 }
 
 .projectContainer {
@@ -96,10 +126,13 @@ h3 {
 }
 
 .projBox {
-    width: 33%;
+    width: 300px;
+    height: 300px;
     text-align: center;
-    border: 5px solid #9BE8D8;
+    border: 5px solid #000000;
     border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .projBuffer {
@@ -113,19 +146,17 @@ h3 {
 .projBox img {
     width: 100%;
     overflow: hidden;
+    border-radius: 25px;
 }
 
 .projBox:hover {
-    border-color: #F9F3CC;
+    border-color: #5C8374;
 }
 
 .fa-icon:hover {
-    color: #F9F3CC;
+    color: #5C8374;
 }
 
-.projBox img {
-    border-radius: 25px;
-}
 
 @media screen and (max-width: 640px) {
   .projectContainer {
