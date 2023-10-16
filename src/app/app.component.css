@@ -167,6 +167,21 @@ h3 {
     border-left: 0.5rem solid #00ff99;
 }
 
+.projNews {
+    background-image: url("../assets/mouse2.png");
+    background-size: 100%;
+}
+
+.projAsk {
+    background-image: url("../assets/question2.png");
+    background-size: 100%;
+}
+
+.projTravel {
+    background-image: url("../assets/travel2.png");
+    background-size: 100%;
+}
+
 @media screen and (max-width: 640px) {
   .projectContainer {
     flex-direction: column;
