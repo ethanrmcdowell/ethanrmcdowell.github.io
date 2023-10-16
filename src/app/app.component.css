@@ -207,4 +207,8 @@ h3 {
   .aboutBox {
     width: 100%;
   }
+
+  .projectSection {
+    margin-top: 100vh;
+  }
 }
