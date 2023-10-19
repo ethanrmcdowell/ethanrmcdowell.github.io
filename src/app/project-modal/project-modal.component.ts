@@ -29,7 +29,7 @@ export class ProjectModalComponent implements OnInit {
         break;
       case "news":
         this.projectName = "News Mouse";
-        this.projectText = "Uses NewData.io API to show the day's top news stories. Can be viewed in English, Spanish, and French and uses Firebase/Firestore to allow user to log in and save their favorite stories for later.";
+        this.projectText = "Uses NewData.io API to show the day's top news stories. Features include ability to search the past news archive, view articles in English, Spanish, or French, and favorite/bookmark functionality for authenticated users. Built using Angular and hosted on Firebase while utilizing Firestore and Firebase Authentication.";
         this.projectUrl = "https://news-mouse.web.app/";
         this.projectGH = "https://github.com/ethanrmcdowell/news-mouse";
         break;

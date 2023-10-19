@@ -84,11 +84,34 @@
       </p>
     </div>
 
+    <div class="skillsContainer border-skills">
+      <h3 class="skillsHeader">Skills</h3>
+      <div>
+        <p class="skillItem" style="background: #0802a3">JavaScript</p>
+        <p class="skillItem" style="background: #495e57">Angular</p>
+        <p class="skillItem" style="background: #9a4444">HTML</p>
+        <p class="skillItem" style="background: #5272f2">CSS</p>
+        <p class="skillItem" style="background: #e25e3e">SQL</p>
+        <p class="skillItem" style="background: #f39f5a">Git</p>
+        <p class="skillItem" style="background: #713abe">TypeScript</p>
+        <p class="skillItem" style="background: #3085c3">Docker</p>
+        <p class="skillItem" style="background: #c70039">Firebase</p>
+        <p class="skillItem" style="background: #0802a3">React</p>
+        <p class="skillItem" style="background: #495e57">Postman</p>
+        <!-- <p class="skillItem"></p> -->
+      </div>
+    </div>
+
     <h3>Projects</h3>
     <div class="projectContainer">
       <div (click)="openModal('news')" class="projBox projNews"></div>
       <div (click)="openModal('question')" class="projBox projAsk"></div>
       <div (click)="openModal('travel')" class="projBox projTravel"></div>
+    </div>
+    <div>
+      <button mat-raised-button class="resumeBtn" (click)="openResume()">
+        View Resume
+      </button>
     </div>
   </div>
 </div>

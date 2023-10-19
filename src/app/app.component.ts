@@ -5,7 +5,6 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faCircleNotch, faLink, faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { MatDialog } from '@angular/material/dialog';
 import { ProjectModalComponent } from './project-modal/project-modal.component';
-import { trigger, state, style, animate,  transition } from '@angular/animations';
 
 @Component({
   selector: 'app-root',
@@ -32,11 +31,15 @@ export class AppComponent {
       data: project,
       panelClass: 'project-dialog',
       height: '40%',
-      width: '60%',
+      width: '40%',
     });
 
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
     });
+  }
+
+  openResume() {
+    window.open('../assets/resume.pdf', '_blank');
   }
 }
