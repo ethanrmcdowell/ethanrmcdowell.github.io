@@ -30,8 +30,8 @@ export class AppComponent {
     const dialogRef = this.dialog.open(ProjectModalComponent, {
       data: project,
       panelClass: 'project-dialog',
-      height: '40%',
-      width: '40%',
+      height: 'auto',
+      width: window.innerWidth > 640 ? '40%' : '90%',
     });
 
     dialogRef.afterClosed().subscribe(result => {

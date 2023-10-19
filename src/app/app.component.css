@@ -285,8 +285,4 @@ button.resumeBtn:hover {
     margin-top: 3px;
     margin-bottom: 3px;
   }
-
-  .mat-dialog-container::ng-deep {
-    width: 90% !important;
-  }
 }

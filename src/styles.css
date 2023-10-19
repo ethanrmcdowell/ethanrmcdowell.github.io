@@ -4,3 +4,9 @@ body, html {
 }
 
 html, body { height: 100%; }
+
+@media screen and (max-width: 640px) {
+    .project-dialog .mat-dialog-container {
+        width: 90%;
+      }
+}
