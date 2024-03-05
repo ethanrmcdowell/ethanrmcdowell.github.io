@@ -42,63 +42,76 @@
     </div>
   </div>
   <div class="aboutBox">
-    <div class="introBox">
-      <h3>
-        Hello! I'm a full-stack web developer located in Detroit, Michigan. I
-        have hands-on experience developing and implementing solutions for CRMs
-        and financial applications as well as a strong background utilizing
+    <div class="introBox border-style">
+      <h3>Hello, I'm Ethan!</h3>
+      <p class="aboutText">
+        I'm a full-stack web developer located in Detroit, Michigan.
+        <!-- I have
+        hands-on experience developing and implementing solutions for CRMs and
+        financial applications as well as a strong background utilizing
         JavaScript, Angular, React, MySQL, Node.js, and Git, and other related
-        technologies.
-      </h3>
+        technologies. -->
+      </p>
     </div>
+    <a href="#projects">
+      <fa-icon
+        [icon]="faArrowDown"
+        size="2x"
+        class="fa-arrow-down fa-icon"
+        target="_blank"
+      ></fa-icon>
+    </a>
   </div>
-  <hr />
   <div class="projectSection">
+    <span id="projects"></span>
+    <h3 class="aboutHeader">About</h3>
+    <div class="aboutContainer border-about">
+      <p>
+        I'm a full stack developer with a passion for connecting people through
+        technology. The internet's vast potential inspires me to create seamless
+        digital experiences that bring individuals together. Driven by a
+        constant desire to learn, I aim to become a trusted expert, providing
+        valuable guidance to those who need it.
+      </p>
+      <p>
+        Beyond web development, I'm an enthusiastic explorer of diverse
+        interests that enrich my life and fuel my creativity. I find solace in
+        tending to my growing plant collection, immersing myself in virtual
+        worlds through video games, delving into history's narratives, and
+        engaging in stimulating political discussions. Outdoor activities like
+        biking and kayaking provide a refreshing balance to my tech-focused
+        endeavors.
+      </p>
+    </div>
+
+    <div class="skillsContainer border-skills">
+      <h3 class="skillsHeader">Skills</h3>
+      <div>
+        <p class="skillItem" style="background: #0802a3">JavaScript</p>
+        <p class="skillItem" style="background: #495e57">Angular</p>
+        <p class="skillItem" style="background: #9a4444">HTML</p>
+        <p class="skillItem" style="background: #5272f2">CSS</p>
+        <p class="skillItem" style="background: #e25e3e">SQL</p>
+        <p class="skillItem" style="background: #f39f5a">Git</p>
+        <p class="skillItem" style="background: #713abe">TypeScript</p>
+        <p class="skillItem" style="background: #3085c3">Docker</p>
+        <p class="skillItem" style="background: #c70039">Firebase</p>
+        <p class="skillItem" style="background: #0802a3">React</p>
+        <p class="skillItem" style="background: #495e57">Postman</p>
+        <!-- <p class="skillItem"></p> -->
+      </div>
+    </div>
+
     <h3>Projects</h3>
     <div class="projectContainer">
-      <div (click)="openModal('travel')" class="projBox">
-        <h3>Travel Health</h3>
-        <p>
-          Web application that shows travel health and safety information for
-          each country.
-        </p>
-        <img src="../assets/travel.png" />
-      </div>
-      <div class="projBuffer"></div>
-      <div (click)="openModal('news')" class="projBox">
-        <h3>News Watch</h3>
-        <p>News aggregator utilizing NewsData.io API.</p>
-        <img src="../assets/news.png" />
-      </div>
+      <div (click)="openModal('news')" class="projBox projNews"></div>
+      <div (click)="openModal('question')" class="projBox projAsk"></div>
+      <div (click)="openModal('travel')" class="projBox projTravel"></div>
     </div>
-    <div class="containerBuffer"></div>
-    <div class="projectContainer">
-      <div (click)="openModal('prattle')" class="projBox">
-        <h3>Prattle</h3>
-        <p>
-          Work in progress! Social media application using Google's Firebase.
-        </p>
-        <img src="../assets/prattle.png" />
-      </div>
-      <div class="projBuffer"></div>
-      <div (click)="openModal('covid')" class="projBox">
-        <h3>COVID Watcher</h3>
-        <p>Historical COVID data received from Disease.sh API.</p>
-        <img src="../assets/covid.png" />
-      </div>
+    <div>
+      <button mat-raised-button class="resumeBtn" (click)="openResume()">
+        View Resume
+      </button>
     </div>
   </div>
 </div>
-
-<!-- <div class="projectDiv" (click)="openModal('travel')">
-  <h3>Travel Health</h3>
-  <img src="../assets/travel.png" />
-</div>
-<div class="projectDiv" (click)="openModal('news')">
-  <h3>News Watcher</h3>
-  <img src="../assets/news.png" />
-</div>
-<div class="projectDiv" (click)="openModal('prattle')">
-  <h3>Prattle</h3>
-  <img src="../assets/prattle.png" />
-</div> -->
