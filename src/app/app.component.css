@@ -143,6 +143,14 @@ td div {
     margin-bottom: 10px;
 }
 
+.projTwo {
+    padding-bottom: 80px;
+}
+
+.resumeContainer {
+    margin-bottom: 80px;
+}
+
 .aboutContainer {
     margin: 20px auto 50px auto;
     width: 40%;
@@ -221,6 +229,16 @@ td div {
 
 .projTravel {
     background-image: url("../assets/travel2.png");
+    background-size: 100%;
+}
+
+.projClerk {
+    background-image: url("../assets/clerk.png");
+    background-size: 100%;
+}
+
+.projDirectory {
+    background-image: url("../assets/directory.png");
     background-size: 100%;
 }
 

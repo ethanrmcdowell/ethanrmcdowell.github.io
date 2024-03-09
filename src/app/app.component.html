@@ -84,6 +84,12 @@
       </p>
     </div>
 
+    <div class="resumeContainer">
+      <button mat-raised-button class="resumeBtn" (click)="openResume()">
+        View Resume
+      </button>
+    </div>
+
     <div class="skillsContainer border-skills">
       <h3 class="skillsHeader">Skills</h3>
       <div>
@@ -104,14 +110,23 @@
 
     <h3>Projects</h3>
     <div class="projectContainer">
-      <div (click)="openModal('news')" class="projBox projNews"></div>
-      <div (click)="openModal('question')" class="projBox projAsk"></div>
-      <div (click)="openModal('travel')" class="projBox projTravel"></div>
+      <a href="https://github.com/ethanrmcdowell/clerks-app" target="_blank">
+        <div class="projBox projClerk"></div>
+      </a>
+      <a href="https://github.com/ethanrmcdowell/wbt-directory" target="_blank">
+        <div class="projBox projDirectory"></div>
+      </a>
     </div>
-    <div>
-      <button mat-raised-button class="resumeBtn" (click)="openResume()">
-        View Resume
-      </button>
+    <div class="projectContainer projTwo">
+      <a href="https://github.com/ethanrmcdowell/news-mouse" target="_blank">
+        <div class="projBox projNews"></div>
+      </a>
+      <a href="https://github.com/ethanrmcdowell/ask-me" target="_blank">
+        <div class="projBox projAsk"></div>
+      </a>
+      <a href="https://github.com/ethanrmcdowell/country-data" target="_blank">
+        <div class="projBox projTravel"></div>
+      </a>
     </div>
   </div>
 </div>
